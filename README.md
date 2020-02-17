@@ -29,6 +29,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [https://coverr.co/] for the awsome cover.
 - Special thanks to Mathew Njuguna [https://www.behance.net/mathewnjuguna] & Sam Achola [https://www.behance.net/aweSam]
 - Design idea by [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna) info (layouts) follow in this link [https://www.behance.net/gallery/25563385/PatashuleKE]
 
