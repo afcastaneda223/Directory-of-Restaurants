@@ -72,10 +72,6 @@
   width: 65%;
 }
 
-.cover h3 {
-  text-align: center;
-}
-
 .box1 h6 {
   padding-bottom: 20px;
 }
@@ -131,29 +127,29 @@
   border: none;
 }
 
-.cover h3{
+.cover h3 {
   font-size: 22px;
+  text-align: center;
 }
 
-.cover h6{
+.cover h6 {
   font-size: 13px;
 }
 
-
-
 @media (min-width: 576px) {
-.searchbutton {
-  display: inline;
+  .searchbutton {
+    display: inline;
+  }
 
+  .searchbutton2 {
+    display: none;
   }
-.searchbutton2 {
-  display: none;
-  }
-  .cover h3{
+
+  .cover h3 {
     font-size: 28px;
   }
-  
-  .cover h6{
+
+  .cover h6 {
     font-size: 16px;
   }
 }
