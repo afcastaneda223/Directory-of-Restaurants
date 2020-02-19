@@ -367,7 +367,7 @@ footer {
 
 .last {
   background-color: #1e1e1e;
-  color: #444444;
+  color: #444;
   font-size: 12px;
   height: 70px;
   padding-top: 15px;
@@ -378,19 +378,29 @@ footer {
   font-size: 20px;
 }
 
-.filter{
-  background-color: #eeeeee;
-
+.filter {
+  background-color: #eee;
 }
-.abc{
+
+.abc {
   visibility: hidden;
 }
 
-.filter h4{
+.filter h4 {
   color: #959595;
   text-align: center;
 }
 
-.results h4{
+.results h4 {
   color: #696969;
+}
+
+.resulttitle {
+  color: #d35649;
+}
+
+.resultinfo {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888;
 }
