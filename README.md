@@ -2,7 +2,7 @@
 
 > Directory of restaurants
 
-
+![screenshot](assets/Screen Shot.png)
 ## Built With
 
 - HTML,
