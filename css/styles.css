@@ -3,13 +3,45 @@
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.navicon a {
+  color: #fff;
+}
+
+.flex-container a {
+  color: #fff;
+}
+
+.mail a,
+.mail2 a {
+  color: #d35649;
+}
+
+.last a {
+  font-size: 20px;
+  color: #444;
+}
+
+.flexsearch a:hover {
+  text-decoration: none;
+}
+
+.flex-container a:hover {
+  color: #e17f65;
+  text-decoration: none;
+}
+
 .navbar {
   background-color: #d35649;
 }
 
 .navbar a:hover {
-  font-weight: 700;
   text-decoration: none;
+}
+
+.navicon a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .videobg {
@@ -58,10 +90,6 @@
   width: 100%;
 }
 
-.flexsearch a:hover{
-  text-decoration: none;
-}
-
 .fstext {
   color: #322f2f;
   background-color: rgba(255, 255, 255, 0.4);
@@ -79,7 +107,6 @@
   border: none;
   height: 40px;
   width: 100%;
-  
 }
 
 .searchbutton {
@@ -98,7 +125,7 @@
   width: 100%;
 }
 
-.searchbutton3{
+.searchbutton3 {
   border-radius: 5px;
   padding: 5px;
   border: none;
@@ -233,4 +260,107 @@
   .banner3 img {
     display: block;
   }
+}
+
+footer {
+  background-color: #000;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.flex-container h3 {
+  font-size: 15px;
+}
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b6,
+.b7,
+.b8,
+.b9 {
+  border-bottom: 3px solid #181818;
+  border-top: 3px solid #181818;
+  color: #fff;
+  display: none;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  padding-top: 8px;
+}
+
+.b5 {
+  border: 3px solid #181818;
+  border-radius: 1000px;
+  height: 90px;
+  padding: 15px;
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .b6,
+  .b7,
+  .b8,
+  .b9 {
+    display: flex;
+  }
+}
+
+.box3 {
+  display: flex;
+  width: 100%;
+}
+
+.searchbar2 {
+  background-color: #000;
+  border: 1px solid #444;
+  color: #999;
+  height: 30px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.sendbutton {
+  background-color: #444;
+  border: 1px solid #444;
+  color: #999;
+  margin-top: 25px;
+  height: 30px;
+  font-size: 13px;
+}
+
+.mail2 {
+  font-size: 13px;
+}
+
+.mail a:hover,
+.mail2 a:hover {
+  color: #d35649;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.last {
+  background-color: #1e1e1e;
+  color: #444;
+  font-size: 12px;
+  height: 70px;
+  padding-top: 15px;
+}
+
+.last a:hover {
+  font-size: 20px;
+  color: #d35649;
 }
