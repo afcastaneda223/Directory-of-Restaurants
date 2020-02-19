@@ -349,8 +349,8 @@ footer {
   background-color: #444;
   border: 1px solid #444;
   color: #999;
-  margin-top: 25px;
   height: 30px;
+  margin-top: 25px;
   font-size: 13px;
 }
 
@@ -361,19 +361,36 @@ footer {
 .mail a:hover,
 .mail2 a:hover {
   color: #d35649;
-  text-decoration: none;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .last {
   background-color: #1e1e1e;
-  color: #444;
+  color: #444444;
   font-size: 12px;
   height: 70px;
   padding-top: 15px;
 }
 
 .last a:hover {
-  font-size: 20px;
   color: #d35649;
+  font-size: 20px;
+}
+
+.filter{
+  background-color: #eeeeee;
+
+}
+.abc{
+  visibility: hidden;
+}
+
+.filter h4{
+  color: #959595;
+  text-align: center;
+}
+
+.results h4{
+  color: #696969;
 }

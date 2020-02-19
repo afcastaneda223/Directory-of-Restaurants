@@ -19,7 +19,7 @@
 <body>
     <div class="container-fluid m-0 p-0">
         <!--Navbar-->
-        <div class="row container-fluid navbar mx-auto">
+        <div class="row container-fluid navbar mx-auto mb-5">
             <div class="col-12 col-md-4">
                 <h6 class="text-center text-md-left">
                     <a class="navbar-brand text-white mx-auto" href="#"><i class="fas fa-map-marker-alt"></i> B.A.
@@ -57,168 +57,113 @@
                 </div>
             </div>
         </div>
-
-        <!--Header-->
-        <header>
-            <div class="videobg">
-                <video autoplay muted loop>
-                    <source src="assets/Night-BBQ.mp4" type="video/mp4">
-                </video>
-                <div class="cover   ">
-                    <h3>B.A. RESTAURANTS... YOUR GATEWAY TO FINE DINNING</h3>
-                    <form class="flexsearch">
-                        <div class="box1">
-                            <h6 class="fstext m-0 p-">SEARCH BY KEYWORD</h6>
-                        </div>
-                        <div class="box2">
-                            <input class="searchbar" type="search">
-                            <a href="#">
-                                <input class="searchbutton" type="button" value="SEARCH" />
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <input class="searchbutton2" type="button" value="SEARCH" />
-                            </a>
-                        </div>
-                    </form>
-
-                    <div>
-                        <a href="#how">
-                            <input class="searchbutton3 mt-5" type="button" value="How it works">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </header>
         <!--Main-->
         <main>
-            <div class="grid px-3">
-                <div class="tittle" id="how">
-                    <h4>
-                        B.A.RESTAURANTS WORKS IN FOUR SIMPLE STEPS
-                    </h4>
-                </div>
-                <div class="section1">
-                    <div class="h2">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h6>
-                        1-SEARCH
-                    </h6>
-                    <p>
-                        It`s simple. On B.A.Restaurants homepage, enter the <br>
-                        name of the restaurant you are looking for and click on <br>
-                        search. Alternatively, click on the search link <br>
-                        on the top menu to view the list of all restaurants.
-                    </p>
-                </div>
-                <div class="section2">
-                    <div class="h2">
-                        <i class="fas fa-map-marked-alt"></i>
-                    </div>
-                    <h6>
-                        2-LOCATE
-                    </h6>
-                    <p>
-                        Get to see where the restaurant is located by clicking <br>
-                        on the restaurant profile. It`s even more exciting. You <br>
-                        can get directions from anywhere in the country.
-                    </p>
-                </div>
-                <div class="section3">
-                    <div class="h2">
-                        <i class="fas fa-clipboard-list"></i>
-                    </div>
-                    <h6>
-                        3-RESERVE
-                    </h6>
-                    <p>
-                        Reserve for your meal at the restaurant of your <br>
-                        choice. Click on the RESERVE button to get the <br>
-                        reservation form. We also follow up on the <br>
-                        reservation to make sure you get a reply on time.
-                    </p>
-                </div>
-                <div class="section4">
-                    <div class="h2">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <h6>
-                        4-ENJOY
-                    </h6>
-                    <p>
-                        Once your reservation gets admitted. You can now <br>
-                        enjoy it. You can check out our blog to see<br>
-                        recommendations for fine dining.
-                    </p>
-                </div>
-            </div>
-
-            <div class="container-fluid">
-                <div class="row banner1">
-                    <div class="col-12 col-md pt-5 px-5 text-center text-md-left">
-                        <h4 class="py-4">
-                            Over 500 Restaurants registered with us. <br>
-                        </h4>
-                        <h6>
-                            Find a Restaurant by using our filtered search engine.
-                        </h6>
-                        <div>
-                            <a href="#">
-                                <input class="searchbutton4 mt-5" type="submit" value="Find a Restaurant">
-                            </a>
+            <div class="container-fluid filter p-5 pl-5 mb-5">
+                <h4>
+                    Filter by day, time, seats, and neighborhood:
+                </h4>
+                <form>
+                    <div class="form-row p-5 text-center text-md-left">
+                        <div class="col-12 col-md-2">
+                            <h5 class="mb-3">
+                                Day:
+                            </h5>
+                            <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                        </div>
+                        <div class="col-12 col-md form-group">
+                            <label>
+                                <h5>Time</h5>
+                            </label>
+                            <select class="form-control">
+                                <option>00:00</option>
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>06:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md form-group">
+                            <label>
+                                <h5 class="abc">1</h5>
+                            </label>
+                            <select class="col-12 col-md form-control">
+                                <option>AM</option>
+                                <option>PM</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md form-group">
+                            <label>
+                                <h5>Seats</h5>
+                            </label>
+                            <select class="col-12 col-md form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>more...</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-2 form-group">
+                            <label>
+                                <h5>Neighborhood</h5>
+                            </label>
+                            <select class="form-control">
+                                <option>Almagro</option>
+                                <option>Belgrano</option>
+                                <option>Boedo</option>
+                                <option>Caballito</option>
+                                <option>La Boca</option>
+                                <option>Palermo</option>
+                                <option>Puerto Madero</option>
+                                <option>San Telmo</option>
+                                <option>Otros...</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h5 class="abc pb-2">1</h5>
+                                    <a class="btn btn-primary" href="#" role="button">Search</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <h5 class="abc pb-2">1</h5>
+                                    <a class="btn btn-warning text-white" href="#" role="button">Clear filter</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 pt-4">
-                        <figure class="figure float-left float-md-right">
-                            <img src="assets/BA_1.png" class="figure-img" alt="BA obelisco">
-                        </figure>
-                    </div>
-                </div>
+                </form>
+
             </div>
 
-            <div class="container-fluid">
-                <div class="row banner2">
-                    <div class="col-12 col-md pt-5 px-5 text-center text-md-left pb-3">
-                        <h4 class="py-4">
-                            No need to look for the best restaurants in the city.<br>
-                        </h4>
-                        <h6>
-                            Just press or click on the search button and You`re all set
-                        </h6>
-                        <div>
-                            <a href="#">
-                                <input class="searchbutton5 mt-5" type="submit" value="Find a Restaurant near you">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 pt-4">
-                        <figure class="figure float-left float-md-right">
-                            <img src="assets/BA_2.png" class="figure-img" alt="Asado">
-                        </figure>
-                    </div>
-                </div>
+            <div class="container text-center my-5 results">
+                <h4>
+                    Search Result Found 7 Restaurnt(s).
+                </h4>
             </div>
-
-            <div class="container-fluid">
-                <div class="row banner3">
-                    <div class="col-12 col-md pt-5 px-5 text-center text-md-left">
-                        <h4 class="py-4">
-                            Anytime Anywhere Any Way!<br>
-                        </h4>
-                        <h6>
-                            Very convenient platforms that cut any device including out <br>
-                            mobile ready web app and our mobile app comming soon to your app <br>
-                            store.
-                        </h6>
+            <div class="container mb-5">
+                <div class="row text-center">
+                    <div class="col-12 col-md-4 my-3">
+                        <img src="assets/demo2.png" class="img-fluid" alt="demo2">
                     </div>
-                    <div class="col-12 col-md-4 pt-4">
-                        <figure class="figure float-left float-md-right">
-                            <img src="assets/BA_3.png" class="figure-img" alt="Asado">
-                        </figure>
+                    <div class="col-12 col-md-4 my-3">
+                        <img src="assets/demo3.png" class="img-fluid" alt="demo2">
+                    </div>
+                    <div class="col-12 col-md-4 my-3">
+                        <img src="assets/slider.png" class="img-fluid" alt="demo2">
                     </div>
                 </div>
+
             </div>
 
         </main>
@@ -299,7 +244,7 @@
                         </h5>
                         <div class="box3 px-3">
                             <input class="searchbar2" type="search" placeholder="you@example.com">
-                                <input class="sendbutton" type="button" value="SEND">
+                            <input class="sendbutton" type="button" value="SEND">
                         </div>
                     </div>
                     <div class=" col-12 col-md-4 text-center text-white">
@@ -380,5 +325,3 @@
     </div>
 
 </body>
-
-</html>
