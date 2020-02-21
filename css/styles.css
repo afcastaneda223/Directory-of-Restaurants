@@ -389,18 +389,17 @@ footer {
   text-align: center;
 }
 
-#rest1{
+#rest1 {
   color: #696969;
 }
 
-#rest2{
+#rest2 {
   color: #696969;
 }
 
-#rest3{
+#rest3 {
   color: #696969;
 }
-
 
 @media (min-width: 576px) {
   #searchbutton {
@@ -457,16 +456,15 @@ footer {
   }
 
   .flex-container {
-    margin-left: -10px;
+    margin-left: 0;
   }
 
-  .grid2{
-    grid-template-areas: 
-    "g2b1 g2b2"
-    "g2b3 g2b4"
-    "g2b5 g2b5"
-    "g2b6 g2b6"
-
+  .grid2 {
+    grid-template-areas:
+      "g2b1 g2b2"
+      "g2b3 g2b4"
+      "g2b5 g2b5"
+      "g2b6 g2b6";
   }
 }
 
@@ -490,8 +488,7 @@ footer {
     margin-left: -10px;
   }
 
-  .grid2{
-    grid-template-areas: 
-    "g2b1 g2b2 g2b3 g2b4 g2b5 g2b6";
+  .grid2 {
+    grid-template-areas: "g2b1 g2b2 g2b3 g2b4 g2b5 g2b6";
   }
 }
