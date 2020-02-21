@@ -299,14 +299,7 @@ footer {
   font-size: 15px;
 }
 
-.b1,
-.b2,
-.b3,
-.b4,
-.b6,
-.b7,
-.b8,
-.b9 {
+.b1{
   border-bottom: 3px solid #181818;
   border-top: 3px solid #181818;
   color: #fff;
@@ -316,7 +309,7 @@ footer {
   padding-top: 8px;
 }
 
-.b5 {
+.b2 {
   border: 3px solid #181818;
   border-radius: 1000px;
   height: 90px;
@@ -325,14 +318,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .b1,
-  .b2,
-  .b3,
-  .b4,
-  .b6,
-  .b7,
-  .b8,
-  .b9 {
+  .b1{
     display: flex;
   }
 }
